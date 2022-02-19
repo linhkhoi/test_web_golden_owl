@@ -123,6 +123,7 @@ function deleteCart() {
       }
       listItems.filter(function(e) { return e !== searchText })
       cartItemR.remove();
+      cartTotal();
     });
   }
 }
